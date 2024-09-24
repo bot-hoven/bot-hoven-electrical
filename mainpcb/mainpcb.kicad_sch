@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8e899647-a0f4-47d2-9d4a-2e9de2221eca")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 185.42 29.21)
+		(size 74.93 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9d696eb8-716e-4588-b1b5-ec895711ca90")
+		(property "Sheetname" "Power Supply"
+			(at 185.42 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psu.kicad_sch"
+			(at 185.42 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "capstone_power_supply"
+				(path "/8e899647-a0f4-47d2-9d4a-2e9de2221eca"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
