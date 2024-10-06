@@ -36,7 +36,7 @@
 			)
 		)
 		(instances
-			(project "capstone_power_supply"
+			(project "mainpcb"
 				(path "/8e899647-a0f4-47d2-9d4a-2e9de2221eca"
 					(page "2")
 				)
