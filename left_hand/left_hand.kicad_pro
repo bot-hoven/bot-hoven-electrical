@@ -236,12 +236,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "bh_symbol_library"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mainpcb.kicad_pro",
+    "filename": "left_hand.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -386,12 +384,8 @@
   },
   "sheets": [
     [
-      "8e899647-a0f4-47d2-9d4a-2e9de2221eca",
+      "22d0e2d6-ca63-4bde-b22b-39e933f56b8a",
       "Root"
-    ],
-    [
-      "9d696eb8-716e-4588-b1b5-ec895711ca90",
-      "Power Supply"
     ]
   ],
   "text_variables": {}
