@@ -289,6 +289,594 @@
 				)
 			)
 		)
+		(symbol "Driver_LED:PCA9685PW"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 22.225 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PCA9685PW"
+				(at 1.27 22.225 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
+				(at 0.635 -24.765 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCA9685.pdf"
+				(at -10.16 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PWM LED driver I2C TSSOP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*4.4x9.7mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PCA9685PW_0_1"
+				(rectangle
+					(start -12.7 20.32)
+					(end 12.7 -22.86)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "PCA9685PW_1_1"
+				(pin input line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "LED4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "LED5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "LED6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "LED7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "LED8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "LED9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "LED10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "LED11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(name "LED12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -15.24 180)
+					(length 5.08)
+					(name "LED13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -17.78 180)
+					(length 5.08)
+					(name "LED14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -20.32 180)
+					(length 5.08)
+					(name "LED15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -17.78 0)
+					(length 5.08)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 12.7 0)
+					(length 5.08)
+					(name "EXTCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 17.78 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 15.24 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 25.4 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -10.16 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -12.7 0)
+					(length 5.08)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -15.24 0)
+					(length 5.08)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 17.78 180)
+					(length 5.08)
+					(name "LED0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 15.24 180)
+					(length 5.08)
+					(name "LED1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "LED2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "LED3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Interface:PCA9615DP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1676,7 +2264,7 @@
 	)
 	(symbol
 		(lib_id "Interface_Expansion:MCP23017_SP")
-		(at 59.69 115.57 0)
+		(at 49.53 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1685,7 +2273,7 @@
 		(fields_autoplaced yes)
 		(uuid "14184ee8-e13f-446c-9ae1-b8731254e896")
 		(property "Reference" "U1"
-			(at 61.8841 87.63 0)
+			(at 51.7241 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +2282,7 @@
 			)
 		)
 		(property "Value" "MCP23017_SP"
-			(at 61.8841 90.17 0)
+			(at 51.7241 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +2291,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
-			(at 64.77 140.97 0)
+			(at 54.61 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,7 +2301,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf"
-			(at 64.77 143.51 0)
+			(at 54.61 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +2311,7 @@
 			)
 		)
 		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
-			(at 59.69 115.57 0)
+			(at 49.53 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +2320,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/en/products/detail/microchip-technology/MCP23017-E-SP/894272"
-			(at 59.69 115.57 0)
+			(at 49.53 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,6 +2422,310 @@
 		)
 	)
 	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 233.68 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25a2d34d-13cc-481e-ac99-0ccf25faf70f")
+		(property "Reference" "M3"
+			(at 242.57 57.9865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 242.57 60.5265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 233.68 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 233.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a962fdfb-b5e9-469d-af1b-10bba9e6dee3")
+		)
+		(pin "3"
+			(uuid "79397792-a7f6-4ac8-8378-f9dd34e77691")
+		)
+		(pin "2"
+			(uuid "2470d82a-fe63-4407-b797-c372496ebc0f")
+		)
+		(instances
+			(project "left_hand"
+				(path "/22d0e2d6-ca63-4bde-b22b-39e933f56b8a"
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_LED:PCA9685PW")
+		(at 186.69 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dac430e-09e7-417c-bdec-de757dddfa41")
+		(property "Reference" "U3"
+			(at 188.8841 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PCA9685PW"
+			(at 188.8841 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
+			(at 187.325 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCA9685.pdf"
+			(at 176.53 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP"
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/nxp-usa-inc/PCA9685PW-112/2034324"
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "15a0acaa-54ae-4d44-9e8e-9dd2d1963c20")
+		)
+		(pin "22"
+			(uuid "b15bc138-8956-43ae-8848-23df61cc18bf")
+		)
+		(pin "23"
+			(uuid "c656c362-8e83-4588-b56e-f927092962dc")
+		)
+		(pin "8"
+			(uuid "f140e96a-d577-4301-891e-047733bb0416")
+		)
+		(pin "19"
+			(uuid "d483b9a5-b28a-41c1-8998-96ebc97098eb")
+		)
+		(pin "5"
+			(uuid "26b1e229-2f94-45f2-9ae5-3b20db71a10f")
+		)
+		(pin "10"
+			(uuid "baa2b7b5-c20f-49d7-b5d2-a8f18d6b367b")
+		)
+		(pin "20"
+			(uuid "1602b2ff-7906-4deb-a58a-2a87be1965f8")
+		)
+		(pin "1"
+			(uuid "7cbe1a93-df48-4cb1-946a-1053b226535f")
+		)
+		(pin "16"
+			(uuid "10a78993-c2e6-4abd-80f4-a4f90ececac1")
+		)
+		(pin "21"
+			(uuid "a4ec4f41-fd05-4ceb-8d32-c69e979ab0b0")
+		)
+		(pin "25"
+			(uuid "8923a809-df06-46cd-9c60-142da44edb05")
+		)
+		(pin "3"
+			(uuid "2c72628f-54df-4365-b1e2-e82b91141be4")
+		)
+		(pin "6"
+			(uuid "d9a924c7-140b-41ff-8e15-4c03742a2c57")
+		)
+		(pin "26"
+			(uuid "832a5f56-fcf9-4443-9d25-86422994fbcc")
+		)
+		(pin "28"
+			(uuid "8bc959ad-385b-48c5-9579-e36aa18302fc")
+		)
+		(pin "11"
+			(uuid "a61dc18e-99c5-4e41-9751-95d192f0d8f3")
+		)
+		(pin "18"
+			(uuid "711a5c78-fed4-4674-8576-194f04d20d18")
+		)
+		(pin "24"
+			(uuid "39dcbcd0-721a-4346-af5e-956395649b25")
+		)
+		(pin "2"
+			(uuid "0e7b20f9-b3c6-4d22-8466-e7fe914543f1")
+		)
+		(pin "9"
+			(uuid "aed49c89-6b73-4378-bb24-f1f8fccd81e3")
+		)
+		(pin "13"
+			(uuid "a54557f5-e854-438d-8774-e7eb288a7f6b")
+		)
+		(pin "14"
+			(uuid "22a2634a-bf99-4871-8c1e-c657fcf5e598")
+		)
+		(pin "7"
+			(uuid "96bcef1a-9967-40cb-acac-c22a71c2031f")
+		)
+		(pin "4"
+			(uuid "e1ca2800-ac3d-44f1-8b01-88cec62e092b")
+		)
+		(pin "12"
+			(uuid "cf930b15-766f-4c2d-9301-9247257be854")
+		)
+		(pin "17"
+			(uuid "33811e13-a142-4967-895e-7c1ea7ea1588")
+		)
+		(pin "27"
+			(uuid "0be40f2e-07d8-441a-87a0-ba1bf4144207")
+		)
+		(instances
+			(project "left_hand"
+				(path "/22d0e2d6-ca63-4bde-b22b-39e933f56b8a"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 233.68 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4da77750-f953-4b95-9e0b-6af2881fd567")
+		(property "Reference" "M4"
+			(at 242.57 70.6865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 242.57 73.2265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 233.68 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 233.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64a25447-98b5-4715-886e-844a261ee5ac")
+		)
+		(pin "3"
+			(uuid "af9f8d62-f9e4-42bf-bbeb-687546105ba0")
+		)
+		(pin "2"
+			(uuid "b73b4968-d58e-4a9d-952e-bc9194fd69a2")
+		)
+		(instances
+			(project "left_hand"
+				(path "/22d0e2d6-ca63-4bde-b22b-39e933f56b8a"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_NMOS_GDS")
 		(at 57.15 68.58 0)
 		(unit 1)
@@ -1841,7 +2733,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6a3dc659-981e-4763-822c-b5dc0c2260c3")
 		(property "Reference" "Q1"
 			(at 63.5 67.3099 0)
@@ -2090,16 +2981,16 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_Servo")
-		(at 181.61 53.34 0)
+		(at 233.68 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c09c3f08-0841-4ab1-a545-8934d778bddf")
-		(property "Reference" "M1"
-			(at 190.5 51.6365 0)
+		(uuid "bfde61a0-cdc0-49d9-aabf-e5c1ffa3d806")
+		(property "Reference" "M5"
+			(at 242.57 83.3865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2999,7 @@
 			)
 		)
 		(property "Value" "Motor_Servo"
-			(at 190.5 54.1765 0)
+			(at 242.57 85.9265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +3008,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 58.166 0)
+			(at 233.68 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +3017,7 @@
 			)
 		)
 		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 181.61 58.166 0)
+			(at 233.68 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +3026,80 @@
 			)
 		)
 		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 181.61 53.34 0)
+			(at 233.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0264a6f9-c62a-4d0c-b4a1-a27d912f53db")
+		)
+		(pin "3"
+			(uuid "ab81e776-73b1-476c-91bf-ab0f82ab057a")
+		)
+		(pin "2"
+			(uuid "6c832fd3-9edf-4f9e-9cbe-750164e15384")
+		)
+		(instances
+			(project "left_hand"
+				(path "/22d0e2d6-ca63-4bde-b22b-39e933f56b8a"
+					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 233.68 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c09c3f08-0841-4ab1-a545-8934d778bddf")
+		(property "Reference" "M1"
+			(at 242.57 32.5865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 242.57 35.1265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 233.68 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 233.68 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,6 +3120,79 @@
 			(project ""
 				(path "/22d0e2d6-ca63-4bde-b22b-39e933f56b8a"
 					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 233.68 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee8f7797-ee29-48d8-8ceb-b7fc42b72a35")
+		(property "Reference" "M2"
+			(at 242.57 45.2865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 242.57 47.8265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 233.68 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 233.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f224a5e9-35d3-497a-bba0-6d85a7ce6553")
+		)
+		(pin "3"
+			(uuid "5c6b7aba-17b0-4dee-9d33-c1412b5ff54d")
+		)
+		(pin "2"
+			(uuid "7a421f0c-5fab-433c-870f-346f10026558")
+		)
+		(instances
+			(project "left_hand"
+				(path "/22d0e2d6-ca63-4bde-b22b-39e933f56b8a"
+					(reference "M2")
 					(unit 1)
 				)
 			)
