@@ -1290,7 +1290,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 140.97) (xy 92.71 144.78)
+			(xy 62.23 133.35) (xy 62.23 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1300,7 +1300,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 69.85) (xy 87.63 74.93)
+			(xy 57.15 62.23) (xy 57.15 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1310,7 +1310,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 144.78 0)
+		(at 62.23 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1319,7 +1319,7 @@
 		(fields_autoplaced yes)
 		(uuid "27906f50-85d0-4717-9f2e-0a72ab94a913")
 		(property "Reference" "#PWR014"
-			(at 92.71 151.13 0)
+			(at 62.23 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1328,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 149.86 0)
+			(at 62.23 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,7 +1336,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 144.78 0)
+			(at 62.23 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,7 +1345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 144.78 0)
+			(at 62.23 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1354,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 144.78 0)
+			(at 62.23 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1376,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Raspberry_Pi_2_3")
-		(at 92.71 107.95 0)
+		(at 62.23 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1385,7 +1385,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9b205dd-ec10-45be-a648-153df752b903")
 		(property "Reference" "J2"
-			(at 94.9041 140.97 0)
+			(at 64.4241 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1394,7 @@
 			)
 		)
 		(property "Value" "Raspberry_Pi_2_3"
-			(at 94.9041 143.51 0)
+			(at 64.4241 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1403,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
-			(at 92.71 107.95 0)
+			(at 62.23 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,7 +1412,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf"
-			(at 153.67 152.4 0)
+			(at 123.19 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1421,7 @@
 			)
 		)
 		(property "Description" "expansion header for Raspberry Pi 2 & 3"
-			(at 92.71 107.95 0)
+			(at 62.23 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,7 +1560,7 @@
 	)
 	(symbol
 		(lib_id "Interface:PCA9615DP")
-		(at 137.16 170.18 0)
+		(at 130.81 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1569,7 +1569,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2881321-5211-4218-b2fd-824b4b411242")
 		(property "Reference" "U3"
-			(at 139.3541 180.34 0)
+			(at 133.0041 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +1578,7 @@
 			)
 		)
 		(property "Value" "PCA9615DP"
-			(at 139.3541 182.88 0)
+			(at 133.0041 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,7 +1587,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 157.48 179.07 0)
+			(at 151.13 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1596,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCA9615.pdf"
-			(at 137.16 181.61 0)
+			(at 130.81 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,7 +1605,7 @@
 			)
 		)
 		(property "Description" "Dual bidirectional hot-swap multipoint bus buffer, SO-8"
-			(at 137.16 170.18 0)
+			(at 130.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +1614,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/en/products/detail/nxp-usa-inc/PCA9615DPZ/14635231"
-			(at 137.16 170.18 0)
+			(at 130.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,7 +1663,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 87.63 69.85 0)
+		(at 57.15 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1672,7 +1672,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8822d3e-83fe-4574-aeb4-83bb8547d8fc")
 		(property "Reference" "#PWR013"
-			(at 87.63 73.66 0)
+			(at 57.15 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1681,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 87.63 64.77 0)
+			(at 57.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,7 +1689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 69.85 0)
+			(at 57.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +1698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 69.85 0)
+			(at 57.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +1707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 87.63 69.85 0)
+			(at 57.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
