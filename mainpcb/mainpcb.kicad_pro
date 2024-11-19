@@ -392,6 +392,10 @@
     [
       "9d696eb8-716e-4588-b1b5-ec895711ca90",
       "Power Supply"
+    ],
+    [
+      "ed2528fe-2b45-4d2f-9185-584621c3b8cf",
+      "Differential I2C"
     ]
   ],
   "text_variables": {}
