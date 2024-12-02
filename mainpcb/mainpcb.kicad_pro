@@ -396,6 +396,10 @@
     [
       "ed2528fe-2b45-4d2f-9185-584621c3b8cf",
       "Differential I2C"
+    ],
+    [
+      "f507269d-f3e7-4919-9efa-f31056fe7304",
+      "Current Sensing"
     ]
   ],
   "text_variables": {}
