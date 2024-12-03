@@ -1,0 +1,202 @@
+(footprint "Terminal_Block_8PCV-06-006"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6.6 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d9907b0c-585e-4561-a852-8265af8892de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Terminal_Block_8PCV-06-006"
+		(at 6.6 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "19569ac6-e8e3-41f7-92e8-fc4b25979b90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -21.3654 -11.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3f72793-0a3b-40e0-880a-b405fe0c74a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -21.3654 -11.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dadb1bee-3bdd-4724-8aa3-b6073e24eaca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -21.3654 -11.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e1b16e2-fae8-4201-a583-feeeec072168")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 12.1666 0)
+		(end 12.1666 -20.32)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "34704051-fe93-47f9-9639-3789672cee9e")
+	)
+	(fp_line
+		(start 23.2918 0)
+		(end 23.2918 -20.32)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "da06ba5f-9691-4c42-8971-01828314ba04")
+	)
+	(fp_line
+		(start 34.417 0.06)
+		(end 34.417 -20.26)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ffc880ee-a59b-4101-b11e-d572d9b74f08")
+	)
+	(fp_line
+		(start 45.5422 0)
+		(end 45.5422 -20.32)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97528f04-1803-4ddf-bcfb-56b5999ee414")
+	)
+	(fp_line
+		(start 56.6674 0)
+		(end 56.6674 -20.32)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ded4dc9a-988f-4e8f-8234-3301a04790e5")
+	)
+	(fp_rect
+		(start 0 -20.26)
+		(end 68.834 0.06)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "bbd77341-23db-409b-9cab-77579c401210")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.6 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "532daafd-d571-4861-864d-6af5387386dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 6.6 -5)
+		(size 4.5 4.5)
+		(drill 1.8542)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "49c3949c-02fe-4fa2-9e18-d8a05747b55d")
+	)
+	(pad "2" thru_hole circle
+		(at 17.7252 -5)
+		(size 4.5 4.5)
+		(drill 1.8542)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "350b4dda-80a4-4a26-ad04-24a09fb43ae2")
+	)
+	(pad "3" thru_hole circle
+		(at 28.8504 -5)
+		(size 4.5 4.5)
+		(drill 1.8542)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bcb0a933-7f8e-4fcb-83a2-41e475e931be")
+	)
+	(pad "4" thru_hole circle
+		(at 39.9756 -5)
+		(size 4.5 4.5)
+		(drill 1.8542)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e453bf5b-1ab9-4593-b623-aaba91888e0f")
+	)
+	(pad "5" thru_hole circle
+		(at 51.1008 -5)
+		(size 4.5 4.5)
+		(drill 1.8542)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a80b5e58-6626-4564-b1dc-a5974d9e95e4")
+	)
+	(pad "6" thru_hole circle
+		(at 62.226 -5)
+		(size 4.5 4.5)
+		(drill 1.8542)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e291c99c-3473-45a1-9843-2912bd2135e5")
+	)
+	(group ""
+		(uuid "99a9f7a1-d5ac-404b-b79b-151149ce8f93")
+		(members "19569ac6-e8e3-41f7-92e8-fc4b25979b90" "350b4dda-80a4-4a26-ad04-24a09fb43ae2"
+			"49c3949c-02fe-4fa2-9e18-d8a05747b55d" "4e1b16e2-fae8-4201-a583-feeeec072168"
+			"532daafd-d571-4861-864d-6af5387386dd" "a80b5e58-6626-4564-b1dc-a5974d9e95e4"
+			"bbd77341-23db-409b-9cab-77579c401210" "bcb0a933-7f8e-4fcb-83a2-41e475e931be"
+			"d3f72793-0a3b-40e0-880a-b405fe0c74a6" "d9907b0c-585e-4561-a852-8265af8892de"
+			"dadb1bee-3bdd-4724-8aa3-b6073e24eaca" "e291c99c-3473-45a1-9843-2912bd2135e5"
+			"e453bf5b-1ab9-4593-b623-aaba91888e0f"
+		)
+	)
+)
