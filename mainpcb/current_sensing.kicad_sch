@@ -1724,7 +1724,7 @@
 		(uuid "2299c943-3f08-4288-b8c5-2597d78ad343")
 	)
 	(junction
-		(at 85.09 85.09)
+		(at 82.55 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "287c3375-5f6e-4efb-a957-a0ab980cc248")
@@ -1772,19 +1772,19 @@
 		(uuid "c06053e3-54d3-4a0f-bfe0-4d421f9003c8")
 	)
 	(junction
-		(at 85.09 121.92)
+		(at 82.55 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c234a3c8-c1ab-42fa-95d9-5d1e2d5d4e13")
 	)
 	(junction
-		(at 85.09 104.14)
+		(at 82.55 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c76b28f5-de26-43e0-9833-f72f6e873b30")
 	)
 	(junction
-		(at 85.09 67.31)
+		(at 82.55 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8f43a50-0d9d-4afc-81f9-752385b92992")
@@ -1827,7 +1827,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 121.92) (xy 85.09 121.92)
+			(xy 82.55 86.36) (xy 85.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08630858-533a-48c9-af71-1cace8db4830")
+	)
+	(wire
+		(pts
+			(xy 78.74 121.92) (xy 82.55 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1897,13 +1907,23 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 121.92) (xy 85.09 123.19)
+			(xy 82.55 121.92) (xy 82.55 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1170178e-e94c-4812-b91b-ad752bd7fa65")
+	)
+	(wire
+		(pts
+			(xy 82.55 83.82) (xy 85.09 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f3b00c-97af-42f4-af79-40f51f2e6bc5")
 	)
 	(wire
 		(pts
@@ -1987,6 +2007,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 110.49) (xy 78.74 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f52c75-24b6-4bd0-93d6-8b2580ef5f1b")
+	)
+	(wire
+		(pts
 			(xy 218.44 88.9) (xy 228.6 88.9)
 		)
 		(stroke
@@ -2007,7 +2037,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 66.04) (xy 85.09 67.31)
+			(xy 82.55 66.04) (xy 82.55 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2017,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 102.87) (xy 85.09 104.14)
+			(xy 82.55 102.87) (xy 82.55 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2047,13 +2077,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 110.49) (xy 78.74 110.49)
+			(xy 67.31 73.66) (xy 78.74 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67d90fc0-83e3-448e-9138-766cc576e5f5")
+		(uuid "5f1c7e84-4d23-4694-ba7c-09e1fd4475b9")
 	)
 	(wire
 		(pts
@@ -2117,7 +2147,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 85.09) (xy 85.09 85.09)
+			(xy 82.55 120.65) (xy 85.09 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b38caf3-36e7-49f3-8f6e-c1acdd50fa4a")
+	)
+	(wire
+		(pts
+			(xy 78.74 85.09) (xy 82.55 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2137,7 +2177,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 104.14) (xy 85.09 104.14)
+			(xy 78.74 104.14) (xy 82.55 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2207,6 +2247,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 105.41) (xy 85.09 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9388f97b-8401-4f67-bdac-602e19113e69")
+	)
+	(wire
+		(pts
 			(xy 153.67 109.22) (xy 176.53 109.22)
 		)
 		(stroke
@@ -2217,7 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 67.31) (xy 85.09 68.58)
+			(xy 82.55 67.31) (xy 82.55 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2247,6 +2297,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 102.87) (xy 85.09 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac406946-0e0b-4114-b726-f4662af824ae")
+	)
+	(wire
+		(pts
 			(xy 173.99 106.68) (xy 143.51 106.68)
 		)
 		(stroke
@@ -2257,7 +2317,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 67.31) (xy 85.09 67.31)
+			(xy 82.55 66.04) (xy 85.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6a8d29-145a-4f28-93bc-a384991724db")
+	)
+	(wire
+		(pts
+			(xy 78.74 67.31) (xy 82.55 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2337,7 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 104.14) (xy 85.09 105.41)
+			(xy 82.55 104.14) (xy 82.55 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2357,16 +2427,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 113.03) (xy 78.74 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7f84b7a-c3cd-47ea-95aa-a95ab2cead40")
-	)
-	(wire
-		(pts
 			(xy 198.12 91.44) (xy 176.53 91.44)
 		)
 		(stroke
@@ -2374,6 +2434,26 @@
 			(type default)
 		)
 		(uuid "c87ba03d-b0eb-4b5b-8fc5-66ec72fdb922")
+	)
+	(wire
+		(pts
+			(xy 67.31 113.03) (xy 78.74 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba1239d-f474-4e95-bd84-0bc8f43fa5e4")
+	)
+	(wire
+		(pts
+			(xy 82.55 123.19) (xy 85.09 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce904713-b673-461d-a4f5-7e21853f3a62")
 	)
 	(wire
 		(pts
@@ -2427,7 +2507,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 83.82) (xy 85.09 85.09)
+			(xy 82.55 83.82) (xy 82.55 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +2517,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 120.65) (xy 85.09 121.92)
+			(xy 82.55 68.58) (xy 85.09 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5363d1c-08e1-4634-bbbd-4c7cadd3c3ba")
+	)
+	(wire
+		(pts
+			(xy 82.55 120.65) (xy 82.55 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2467,16 +2557,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 73.66) (xy 78.74 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1b0429e-69fc-46c9-a1dc-0ae631660b7d")
-	)
-	(wire
-		(pts
 			(xy 218.44 78.74) (xy 220.98 78.74)
 		)
 		(stroke
@@ -2497,7 +2577,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 85.09) (xy 85.09 86.36)
+			(xy 82.55 85.09) (xy 82.55 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4171,16 +4251,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
-		(at 59.69 73.66 0)
+		(at 59.69 76.2 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6062834e-7090-44a8-ada5-547bee26bf43")
 		(property "Reference" "J10"
-			(at 60.96 67.31 0)
+			(at 60.96 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4268,7 @@
 			)
 		)
 		(property "Value" "Conn_02x02_Top_Bottom"
-			(at 60.96 69.85 0)
+			(at 60.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4196,7 +4276,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal"
-			(at 59.69 73.66 0)
+			(at 59.69 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,7 +4285,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 73.66 0)
+			(at 59.69 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +4294,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 59.69 73.66 0)
+			(at 59.69 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +4303,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/en/products/detail/molex/0039300040/930321"
-			(at 59.69 73.66 0)
+			(at 59.69 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,16 +6169,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
-		(at 59.69 110.49 0)
+		(at 59.69 113.03 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d2a43b0d-f2e6-41cf-b0b3-cf9092596161")
 		(property "Reference" "J11"
-			(at 60.96 104.14 0)
+			(at 60.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +6186,7 @@
 			)
 		)
 		(property "Value" "Conn_02x02_Top_Bottom"
-			(at 60.96 106.68 0)
+			(at 60.96 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6114,7 +6194,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal"
-			(at 59.69 110.49 0)
+			(at 59.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6123,7 +6203,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 110.49 0)
+			(at 59.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,7 +6212,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 59.69 110.49 0)
+			(at 59.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,7 +6221,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/en/products/detail/molex/0039300040/930321"
-			(at 59.69 110.49 0)
+			(at 59.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
