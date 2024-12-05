@@ -3150,7 +3150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 95.25 113.03 0)
 			(effects
 				(font
@@ -3617,7 +3617,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 142.24 0)
+		(at 214.63 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3626,7 +3626,7 @@
 		(fields_autoplaced yes)
 		(uuid "49a3c2b7-b9f2-40a4-8a1a-b51415652831")
 		(property "Reference" "#PWR096"
-			(at 214.63 148.59 0)
+			(at 214.63 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3635,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 147.32 0)
+			(at 214.63 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 142.24 0)
+			(at 214.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +3652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 142.24 0)
+			(at 214.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3661,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 142.24 0)
+			(at 214.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +3895,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 214.63 138.43 0)
+		(at 214.63 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3904,7 +3904,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e70a6eb-9e19-4e1d-898a-0ab3be43ad34")
 		(property "Reference" "C13"
-			(at 218.44 137.1599 0)
+			(at 218.44 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +3913,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 218.44 139.6999 0)
+			(at 218.44 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +3922,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02"
-			(at 215.5952 142.24 0)
+			(at 215.5952 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +3931,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 138.43 0)
+			(at 214.63 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +3940,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 214.63 138.43 0)
+			(at 214.63 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,7 +3949,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K10X7RF5UH5/2356754"
-			(at 214.63 138.43 0)
+			(at 214.63 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +4189,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 201.93 134.62 0)
+		(at 201.93 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4198,7 +4198,7 @@
 		(fields_autoplaced yes)
 		(uuid "67a49f5a-69b8-49fc-8696-3c0711692959")
 		(property "Reference" "#PWR089"
-			(at 201.93 138.43 0)
+			(at 201.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,7 +4207,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 201.93 129.54 0)
+			(at 201.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,7 +4215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 134.62 0)
+			(at 201.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +4224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 134.62 0)
+			(at 201.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4233,7 +4233,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 201.93 134.62 0)
+			(at 201.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4675,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "99746041-fa14-42e9-aeb4-9c26608c9f0c")
 		(property "Reference" "C16"
 			(at 104.14 138.4299 0)
@@ -4885,7 +4884,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 201.93 138.43 0)
+		(at 201.93 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4894,7 +4893,7 @@
 		(fields_autoplaced yes)
 		(uuid "a81b343d-fc16-40c9-b715-32505ad2181a")
 		(property "Reference" "C12"
-			(at 205.74 137.1599 0)
+			(at 205.74 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +4902,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 205.74 139.6999 0)
+			(at 205.74 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,7 +4911,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02"
-			(at 202.8952 142.24 0)
+			(at 202.8952 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,7 +4920,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 138.43 0)
+			(at 201.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,7 +4929,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 201.93 138.43 0)
+			(at 201.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +4938,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K10X7RF5UH5/2356754"
-			(at 201.93 138.43 0)
+			(at 201.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +5071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 95.25 76.2 0)
 			(effects
 				(font
@@ -5275,7 +5274,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 142.24 0)
+		(at 201.93 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5284,7 +5283,7 @@
 		(fields_autoplaced yes)
 		(uuid "b620b9e4-b88c-4d5e-a486-89b39e158ae6")
 		(property "Reference" "#PWR095"
-			(at 201.93 148.59 0)
+			(at 201.93 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +5292,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 147.32 0)
+			(at 201.93 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +5300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 142.24 0)
+			(at 201.93 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +5309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 142.24 0)
+			(at 201.93 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,7 +5318,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 142.24 0)
+			(at 201.93 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5896,7 +5895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 95.25 58.42 0)
 			(effects
 				(font
@@ -6131,7 +6130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 95.25 95.25 0)
 			(effects
 				(font
@@ -6325,7 +6324,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 214.63 134.62 0)
+		(at 214.63 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6334,7 +6333,7 @@
 		(fields_autoplaced yes)
 		(uuid "e48ae887-d338-4e46-83c3-1e7c49662fa4")
 		(property "Reference" "#PWR090"
-			(at 214.63 138.43 0)
+			(at 214.63 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,7 +6342,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 214.63 129.54 0)
+			(at 214.63 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,7 +6350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 134.62 0)
+			(at 214.63 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +6359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 134.62 0)
+			(at 214.63 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 214.63 134.62 0)
+			(at 214.63 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
