@@ -2469,6 +2469,16 @@
 		)
 		(uuid "d70cf493-bee3-459d-89f2-01c259bb3381")
 	)
+	(text "NOTE: TMCS1108A3UQDR USED IN MANUFACTURED\nMODEL. ONLY DIFFERENCE IS 0-AMP BIAS VOLTAGE.\nSEE DATASHEET"
+		(exclude_from_sim no)
+		(at 96.774 156.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe74b38f-a54f-4b8c-a67e-8e1af7033e48")
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 220.98 78.74 0)
@@ -3169,6 +3179,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/texas-instruments/TMCS1108A3UQDR/13692795"
 			(at 95.25 113.03 0)
 			(effects
 				(font
@@ -5922,6 +5941,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/texas-instruments/TMCS1108A3UQDR/13692795"
+			(at 95.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "3c41b312-3d74-4151-9a5f-cabad1617c57")
 		)
@@ -6149,6 +6177,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 95.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/texas-instruments/TMCS1108A3UQDR/13692795"
 			(at 95.25 95.25 0)
 			(effects
 				(font
