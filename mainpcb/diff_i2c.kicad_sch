@@ -2887,7 +2887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "600R"
 			(at 236.22 105.4099 0)
 			(effects
 				(font
@@ -3750,7 +3750,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "600R"
+		(property "Value" "120R"
 			(at 236.22 115.5699 0)
 			(effects
 				(font
@@ -4018,7 +4018,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "600R"
 			(at 236.22 85.0899 0)
 			(effects
 				(font
@@ -4379,7 +4379,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "600R"
+		(property "Value" "120R"
 			(at 236.22 74.9299 0)
 			(effects
 				(font
@@ -5446,7 +5446,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "600R"
 			(at 236.22 125.7299 0)
 			(effects
 				(font
@@ -5652,7 +5652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "600R"
 			(at 236.22 64.7699 0)
 			(effects
 				(font
