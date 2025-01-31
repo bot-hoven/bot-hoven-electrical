@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "22d0e2d6-ca63-4bde-b22b-39e933f56b8a")
 	(paper "A4")
+	(title_block
+		(title "Hand PCB Main")
+	)
 	(lib_symbols
 		(symbol "Connector:8P8C_Shielded"
 			(pin_names
@@ -6138,6 +6141,18 @@
 		)
 		(uuid "335f94b9-3534-48ce-8c6e-c4d207f224b7")
 	)
+	(text "BOT-HOVEN Hand PCB Version 1"
+		(exclude_from_sim no)
+		(at 215.392 168.91 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "4e1416dc-ee5f-4615-bdd8-ca1740bbb586")
+	)
 	(text "I/O EXPANDER"
 		(exclude_from_sim no)
 		(at 48.768 88.9 0)
@@ -6147,6 +6162,27 @@
 			)
 		)
 		(uuid "e115775d-b1d7-417e-be31-116cc65b42be")
+	)
+	(text "Drawn: Jascha Petersen"
+		(exclude_from_sim no)
+		(at 195.834 179.832 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "e8a52ac4-7a5c-46d0-b03a-21fb5524e779")
+	)
+	(text "AS-BUILT"
+		(exclude_from_sim no)
+		(at 185.166 172.72 0)
+		(effects
+			(font
+				(size 2 2)
+				(italic yes)
+			)
+		)
+		(uuid "ef04be64-3b88-464f-a50a-ce9c2be5c21e")
 	)
 	(global_label "LIMIT_SW_L"
 		(shape input)

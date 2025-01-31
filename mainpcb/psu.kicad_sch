@@ -1913,6 +1913,27 @@
 		)
 		(uuid "fc4c311f-1cac-49ec-a623-830b756bacea")
 	)
+	(text "Drawn: Jascha Petersen"
+		(exclude_from_sim no)
+		(at 195.58 179.832 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "16210108-32e8-43aa-9157-56069021fb0e")
+	)
+	(text "AS-BUILT"
+		(exclude_from_sim no)
+		(at 184.912 172.72 0)
+		(effects
+			(font
+				(size 2 2)
+				(italic yes)
+			)
+		)
+		(uuid "28bf1e94-899b-4f83-9c0a-fe5f87e8c2a4")
+	)
 	(text "SCREW TERMINALS TO MEANWELL\nLRS-350-24 POWER SUPPLY\n"
 		(exclude_from_sim no)
 		(at 57.404 51.054 0)
@@ -1952,6 +1973,18 @@
 			)
 		)
 		(uuid "b67a878b-8b9b-4089-94f0-cfc077ec005c")
+	)
+	(text "BOT-HOVEN Control PCB Version 1"
+		(exclude_from_sim no)
+		(at 217.678 168.91 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "f85f7f4f-c02b-49b6-ac18-3b62bb0bc763")
 	)
 	(hierarchical_label "5VOUT"
 		(shape input)

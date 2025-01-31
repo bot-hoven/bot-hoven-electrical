@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "b567154e-72e3-44dc-a20e-6a4b625f9312")
 	(paper "A4")
+	(title_block
+		(title "Hand PCB Differential I2C")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
@@ -1953,6 +1956,39 @@
 			(type default)
 		)
 		(uuid "ff788755-363c-486e-9abc-876901548bfb")
+	)
+	(text "AS-BUILT"
+		(exclude_from_sim no)
+		(at 184.658 172.72 0)
+		(effects
+			(font
+				(size 2 2)
+				(italic yes)
+			)
+		)
+		(uuid "307627fb-25eb-4825-8465-fa4574f2cae6")
+	)
+	(text "Drawn: Jascha Petersen"
+		(exclude_from_sim no)
+		(at 195.326 179.832 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "3bf7cac8-3538-4df5-9346-fe61b47db3aa")
+	)
+	(text "BOT-HOVEN Hand PCB Version 1"
+		(exclude_from_sim no)
+		(at 214.884 168.91 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "6e2bd0b9-00c9-4d3d-81ae-cad5b55a9178")
 	)
 	(text "I2C DIFFERENTIAL\nTRANSCEIVER\n"
 		(exclude_from_sim no)

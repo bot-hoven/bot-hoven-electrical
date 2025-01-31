@@ -2532,6 +2532,39 @@
 		)
 		(uuid "fd98db6f-b470-4e0a-ab54-86018fc0f6e5")
 	)
+	(text "AS-BUILT"
+		(exclude_from_sim no)
+		(at 184.912 172.974 0)
+		(effects
+			(font
+				(size 2 2)
+				(italic yes)
+			)
+		)
+		(uuid "00f725c2-8078-4bd8-b575-afa8c0f23c60")
+	)
+	(text "BOT-HOVEN Control PCB Version 1"
+		(exclude_from_sim no)
+		(at 217.678 169.164 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "01ec110a-0c14-43b3-8293-51eace0dd919")
+	)
+	(text "Drawn: Jascha Petersen"
+		(exclude_from_sim no)
+		(at 195.58 180.086 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "a8eafd52-76e5-4175-8741-ecbd34d89a15")
+	)
 	(text "LEFT HAND\nI2C TRANSCEIVER\n"
 		(exclude_from_sim no)
 		(at 72.39 39.878 0)

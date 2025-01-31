@@ -4432,6 +4432,18 @@
 		)
 		(uuid "ff9babf6-2c33-4356-a41b-08a2482f2d0b")
 	)
+	(text "BOT-HOVEN Control PCB Version 1"
+		(exclude_from_sim no)
+		(at 217.678 168.91 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "4f9441e5-d59c-4657-a5ed-c3542dfbfcf5")
+	)
 	(text "I2C 3.3V TO 5V\nLEVEL SHIFTER"
 		(exclude_from_sim no)
 		(at 115.824 66.04 0)
@@ -4461,6 +4473,27 @@
 			)
 		)
 		(uuid "9d4981e7-552f-477f-8170-02435d134965")
+	)
+	(text "AS-BUILT"
+		(exclude_from_sim no)
+		(at 184.912 172.72 0)
+		(effects
+			(font
+				(size 2 2)
+				(italic yes)
+			)
+		)
+		(uuid "c2399558-0ba3-4929-9911-7f9274e39af0")
+	)
+	(text "Drawn: Jascha Petersen"
+		(exclude_from_sim no)
+		(at 195.58 179.832 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "c7169675-629a-4ae9-b8f2-8d3633cf144b")
 	)
 	(text "GPIO 3.3V TO 5V\nLEVEL SHIFTER"
 		(exclude_from_sim no)

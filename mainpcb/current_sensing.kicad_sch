@@ -2449,6 +2449,39 @@
 		)
 		(uuid "ff105cb5-60ff-4b22-8333-39b2fabe45a2")
 	)
+	(text "AS-BUILT"
+		(exclude_from_sim no)
+		(at 184.912 172.974 0)
+		(effects
+			(font
+				(size 2 2)
+				(italic yes)
+			)
+		)
+		(uuid "15dc4414-90a1-492a-9dfe-277093922503")
+	)
+	(text "Drawn: Jascha Petersen"
+		(exclude_from_sim no)
+		(at 195.58 180.086 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "1df64aa2-d674-46c0-86c8-d2e5a3be3d6e")
+	)
+	(text "BOT-HOVEN Control PCB Version 1"
+		(exclude_from_sim no)
+		(at 217.678 169.164 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "26a89c3b-b802-4c85-84f7-27dbd8963d4c")
+	)
 	(text "ADC AND VOLTAGE SENSING"
 		(exclude_from_sim no)
 		(at 208.534 60.96 0)
