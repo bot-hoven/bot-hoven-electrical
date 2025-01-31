@@ -1425,6 +1425,14 @@
 		(color 0 0 0 0)
 		(uuid "e740424a-c843-4a67-83d8-8c1c729f1dd7")
 	)
+	(no_connect
+		(at 156.21 119.38)
+		(uuid "21fa82ce-525a-4c9f-b0a6-ca54da5afd02")
+	)
+	(no_connect
+		(at 156.21 81.28)
+		(uuid "ed91929d-2426-45bf-a00f-24748a25b207")
+	)
 	(wire
 		(pts
 			(xy 199.39 119.38) (xy 204.47 119.38)
@@ -1607,16 +1615,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 121.92) (xy 154.94 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "656bb421-9051-468b-900e-b23616958934")
-	)
-	(wire
-		(pts
 			(xy 88.9 73.66) (xy 127 73.66)
 		)
 		(stroke
@@ -1717,16 +1715,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 154.94 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "996c98f2-50f2-4a16-a09f-4862888d050b")
-	)
-	(wire
-		(pts
 			(xy 127 111.76) (xy 127 113.03)
 		)
 		(stroke
@@ -1797,16 +1785,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 81.28) (xy 156.21 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfa0ace0-6dbc-475d-9087-a388cfe1285c")
-	)
-	(wire
-		(pts
 			(xy 218.44 119.38) (xy 243.84 119.38)
 		)
 		(stroke
@@ -1864,16 +1842,6 @@
 			(type default)
 		)
 		(uuid "dd468dbc-f21a-49c9-81ad-070bc6c26e11")
-	)
-	(wire
-		(pts
-			(xy 154.94 119.38) (xy 156.21 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7260bdb-35ca-46e5-adc0-d5e9a49467b2")
 	)
 	(wire
 		(pts
@@ -1954,6 +1922,16 @@
 			)
 		)
 		(uuid "3a1241c5-eb2b-497c-aff9-f857ea56ec84")
+	)
+	(text "+24V RAIL\n"
+		(exclude_from_sim no)
+		(at 115.824 109.728 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "42687100-aed2-416e-92ab-a7e84fa1b6e9")
 	)
 	(text "+12V RAIL\n"
 		(exclude_from_sim no)
@@ -3539,72 +3517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 154.94 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4bf9e21-aca9-438b-ab5d-66a63a704288")
-		(property "Reference" "#PWR029"
-			(at 154.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99d97f52-2b31-49ec-bc5e-e801013f01f3")
-		)
-		(instances
-			(project "mainpcb"
-				(path "/8e899647-a0f4-47d2-9d4a-2e9de2221eca/9d696eb8-716e-4588-b1b5-ec895711ca90"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 218.44 124.46 0)
 		(unit 1)
@@ -3880,72 +3792,6 @@
 			(project "mainpcb"
 				(path "/8e899647-a0f4-47d2-9d4a-2e9de2221eca/9d696eb8-716e-4588-b1b5-ec895711ca90"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e258e35e-ca34-4430-8a25-e7ebedb4875c")
-		(property "Reference" "#PWR034"
-			(at 154.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb77a390-29b4-4eea-bb37-56e05f8213c5")
-		)
-		(instances
-			(project "mainpcb"
-				(path "/8e899647-a0f4-47d2-9d4a-2e9de2221eca/9d696eb8-716e-4588-b1b5-ec895711ca90"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)

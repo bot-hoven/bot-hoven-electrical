@@ -5240,16 +5240,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 55.88) (xy 31.75 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ab41ec0-3c77-434e-8d51-7b97d3e15a42")
-	)
-	(wire
-		(pts
 			(xy 248.92 45.72) (xy 238.76 45.72)
 		)
 		(stroke
@@ -5257,16 +5247,6 @@
 			(type default)
 		)
 		(uuid "6bd095a7-2398-4f8e-92c8-97a2167725f8")
-	)
-	(wire
-		(pts
-			(xy 31.75 53.34) (xy 33.02 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d943cf6-0ac5-446e-9ccb-4b1a04062e77")
 	)
 	(wire
 		(pts
@@ -5610,6 +5590,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 53.34) (xy 33.02 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af818f7f-3435-4e13-b88a-a0181f22c822")
+	)
+	(wire
+		(pts
 			(xy 80.01 160.02) (xy 83.82 160.02)
 		)
 		(stroke
@@ -5937,6 +5927,16 @@
 			(type default)
 		)
 		(uuid "ec418446-30c2-4b01-9c01-f8cfaadcbed3")
+	)
+	(wire
+		(pts
+			(xy 31.75 54.61) (xy 31.75 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec75e87b-e544-403f-9ad5-8cc0ff6264cc")
 	)
 	(wire
 		(pts
@@ -9829,7 +9829,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "511R"
 			(at 100.33 167.64 90)
 			(effects
 				(font
@@ -10102,6 +10102,72 @@
 			(project "left_hand"
 				(path "/22d0e2d6-ca63-4bde-b22b-39e933f56b8a"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 31.75 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "727f9037-c255-4339-b34d-b1c1840b161c")
+		(property "Reference" "#PWR017"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08eea946-2c17-4735-ae23-149cadb4c2ad")
+		)
+		(instances
+			(project "left_hand"
+				(path "/22d0e2d6-ca63-4bde-b22b-39e933f56b8a"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11169,7 +11235,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "511R"
 			(at 100.33 156.21 90)
 			(effects
 				(font
@@ -12028,72 +12094,6 @@
 			(project "left_hand"
 				(path "/22d0e2d6-ca63-4bde-b22b-39e933f56b8a"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 31.75 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d73d7083-5e4f-4bf4-a3ae-2ca19ead8d02")
-		(property "Reference" "#PWR017"
-			(at 31.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1547514-3a54-46d4-b11b-d7693115fa69")
-		)
-		(instances
-			(project ""
-				(path "/22d0e2d6-ca63-4bde-b22b-39e933f56b8a"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
