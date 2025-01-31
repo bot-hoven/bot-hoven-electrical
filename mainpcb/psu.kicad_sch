@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "526e54ec-df37-4011-88c5-a508fad68de0")
 	(paper "A4")
+	(title_block
+		(title "Control PCB PSU")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)

@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "8e899647-a0f4-47d2-9d4a-2e9de2221eca")
 	(paper "A4")
+	(title_block
+		(title "Control PCB Main")
+	)
 	(lib_symbols
 		(symbol "Connector:8P8C_Shielded"
 			(pin_names

@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "cc80dbb6-dc28-43ba-a3f4-810d112bed30")
 	(paper "A4")
+	(title_block
+		(title "Control PCB Differential I2C")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
