@@ -2702,639 +2702,6 @@
 				)
 			)
 		)
-		(symbol "Logic_LevelTranslator:TXB0104D"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TXB0104D"
-				(at 3.81 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0104.pdf"
-				(at 2.794 2.413 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, SOIC-14"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Level-Shifter CMOS-TTL-Translation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*14*7mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TXB0104D_0_1"
-				(rectangle
-					(start -7.62 -15.24)
-					(end -7.62 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 15.24)
-					(end 7.62 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 -7.747) (xy -2.286 -6.731) (xy -0.508 -6.731)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 -2.667) (xy -2.286 -1.651) (xy -0.508 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 2.413) (xy -2.286 3.429) (xy -0.508 3.429)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 7.493) (xy -2.286 8.509) (xy -0.508 8.509)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -7.747) (xy 3.048 -8.763) (xy 1.27 -8.763)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -2.667) (xy 3.048 -3.683) (xy 1.27 -3.683)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 2.413) (xy 3.048 1.397) (xy 1.27 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 7.493) (xy 3.048 6.477) (xy 1.27 6.477)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -8.763) (xy -2.286 -8.763) (xy -2.286 -7.747) (xy -4.064 -7.747)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -8.763) (xy 1.27 -7.747) (xy 1.27 -9.779) (xy -0.508 -8.763)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -3.683) (xy -2.286 -3.683) (xy -2.286 -2.667) (xy -4.064 -2.667)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -3.683) (xy 1.27 -2.667) (xy 1.27 -4.699) (xy -0.508 -3.683)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.397) (xy -2.286 1.397) (xy -2.286 2.413) (xy -4.064 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.397) (xy 1.27 2.413) (xy 1.27 0.381) (xy -0.508 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 6.477) (xy -2.286 6.477) (xy -2.286 7.493) (xy -4.318 7.493)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 6.477) (xy 1.27 7.493) (xy 1.27 5.461) (xy -0.508 6.477)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.731) (xy -0.508 -7.747) (xy -0.508 -5.715) (xy 1.27 -6.731)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.731) (xy 3.048 -6.731) (xy 3.048 -7.747) (xy 4.318 -7.747)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.651) (xy -0.508 -2.667) (xy -0.508 -0.635) (xy 1.27 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.651) (xy 3.048 -1.651) (xy 3.048 -2.667) (xy 4.318 -2.667)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.429) (xy -0.508 2.413) (xy -0.508 4.445) (xy 1.27 3.429)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.429) (xy 3.048 3.429) (xy 3.048 2.413) (xy 4.318 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 8.509) (xy -0.508 7.493) (xy -0.508 9.525) (xy 1.27 8.509)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 8.509) (xy 3.048 8.509) (xy 3.048 7.493) (xy 4.318 7.493)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TXB0104D_1_1"
-				(pin power_in line
-					(at -2.54 17.78 270)
-					(length 2.54)
-					(name "VCCA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 17.78 270)
-					(length 2.54)
-					(name "VCCB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 -12.7 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 12.7 0)
-					(length 2.54)
-					(name "OE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 -12.7 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -4196,6 +3563,477 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+		)
+		(symbol "bh_symbol_library:TXU0304PWR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.508 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TXU0304PWR"
+				(at 17.526 1.27 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TXU0304PWR_0_1"
+				(rectangle
+					(start 0 -30.48)
+					(end 0 -27.94)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -22.86) (xy 3.81 -22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -17.78) (xy 11.43 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -12.7) (xy 11.43 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -7.62) (xy 11.43 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -17.78) (xy 6.985 -17.78) (xy 7.091 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -12.7) (xy 6.985 -12.7) (xy 7.091 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -7.62) (xy 6.985 -7.62) (xy 7.091 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -22.86) (xy 8.255 -22.86) (xy 8.149 -22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -22.86) (xy 8.128 -21.844) (xy 8.128 -23.876) (xy 6.35 -22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -17.78) (xy 7.112 -18.796) (xy 7.112 -16.764) (xy 8.89 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -12.7) (xy 7.112 -13.716) (xy 7.112 -11.684) (xy 8.89 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -7.62) (xy 7.112 -8.636) (xy 7.112 -6.604) (xy 8.89 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 0)
+					(end 15.24 -30.48)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TXU0304PWR_1_1"
+				(pin power_in line
+					(at 5.08 2.54 270)
+					(length 2.54)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -22.86 180)
+					(length 2.54)
+					(name "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -17.78 180)
+					(length 2.54)
+					(name "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -12.7 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 2.54 270)
+					(length 2.54)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -17.78 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -22.86 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -27.94 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -33.02 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -27.94 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -5823,7 +5661,7 @@
 	)
 	(global_label "SPI_MISO"
 		(shape input)
-		(at 83.82 121.92 0)
+		(at 83.82 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5833,7 +5671,7 @@
 		)
 		(uuid "357213b4-1c04-400a-ad3a-734fc003a6e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.4533 121.92 0)
+			(at 95.4533 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,7 +5771,7 @@
 	)
 	(global_label "SPI_SCLK"
 		(shape input)
-		(at 83.82 132.08 0)
+		(at 83.82 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5943,7 +5781,7 @@
 		)
 		(uuid "41691748-8142-40db-b3b7-f88ef106e008")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.6347 132.08 0)
+			(at 95.6347 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6835,7 +6673,7 @@
 	)
 	(global_label "SPI_MISO_3.3"
 		(shape input)
-		(at 63.5 121.92 180)
+		(at 63.5 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6845,7 +6683,7 @@
 		)
 		(uuid "ee96a0ad-6dff-4928-9b0b-2454e3fd8a33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.8753 121.92 0)
+			(at 47.8753 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,7 +6739,7 @@
 	)
 	(global_label "SPI_SCLK_3.3"
 		(shape input)
-		(at 63.5 132.08 180)
+		(at 63.5 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6911,7 +6749,7 @@
 		)
 		(uuid "ff228c72-e610-4e29-a188-a0d85f4beac8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.6939 132.08 0)
+			(at 47.6939 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7528,6 +7366,113 @@
 			(project "control_pcb"
 				(path "/bfe9039d-f086-4b10-bdde-e613b3218973"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bh_symbol_library:TXU0304PWR")
+		(at 66.04 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3172c098-ec4b-4c1d-83a9-88ad91ab2f10")
+		(property "Reference" "U5"
+			(at 75.8541 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TXU0304PWR"
+			(at 75.8541 144.78 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "4703cfcb-7a62-4540-8e4f-d39a1e335d3d")
+		)
+		(pin "5"
+			(uuid "8934299f-dfdd-40ca-9fb8-a0d1d0fd32f8")
+		)
+		(pin "11"
+			(uuid "2add56e0-f6e6-4008-8de4-6f672e9e43db")
+		)
+		(pin "2"
+			(uuid "f5656052-aa34-4198-b654-d9be1d6f0720")
+		)
+		(pin "6"
+			(uuid "44ac9e54-d3a8-4779-83d3-1aa5ff56320e")
+		)
+		(pin "12"
+			(uuid "f64b2ab4-61a1-4042-a95c-288f6a8e47da")
+		)
+		(pin "9"
+			(uuid "cdc6e443-f7b5-4d52-af79-e83e298cf843")
+		)
+		(pin "10"
+			(uuid "e7835065-5478-4142-a26c-7f1a8cc0a052")
+		)
+		(pin "4"
+			(uuid "e2b1a689-0290-4dad-8434-55094600253e")
+		)
+		(pin "3"
+			(uuid "16725a45-bc77-4ff6-8483-383c03dd1630")
+		)
+		(pin "14"
+			(uuid "be1c78d9-a735-4889-9418-312d890b6869")
+		)
+		(pin "7"
+			(uuid "292595f1-9fc0-465c-94f6-d1497cf8be19")
+		)
+		(pin "1"
+			(uuid "899a24d6-1e9f-4abf-bc0a-1ea276b9928e")
+		)
+		(pin "13"
+			(uuid "74347bbe-f489-40b1-9540-61627b952018")
+		)
+		(instances
+			(project ""
+				(path "/bfe9039d-f086-4b10-bdde-e613b3218973"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -10528,112 +10473,6 @@
 			(project "control_pcb"
 				(path "/bfe9039d-f086-4b10-bdde-e613b3218973"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Logic_LevelTranslator:TXB0104D")
-		(at 73.66 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb917632-e6c8-4603-8cfb-478e78978364")
-		(property "Reference" "U5"
-			(at 75.8541 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TXB0104D"
-			(at 75.8541 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 73.66 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0104.pdf"
-			(at 76.454 122.047 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, SOIC-14"
-			(at 73.66 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "1ebe7b06-f183-432f-9044-f2b934875126")
-		)
-		(pin "1"
-			(uuid "f14e2452-f919-4380-9e04-c753937557c9")
-		)
-		(pin "5"
-			(uuid "ae38ae02-1574-489d-ac4a-f390b917a6f9")
-		)
-		(pin "13"
-			(uuid "675ab53d-3a42-493e-83f9-2c9b205f3e0a")
-		)
-		(pin "14"
-			(uuid "7fd44ed1-bb62-4dea-964e-bebc4440dd36")
-		)
-		(pin "4"
-			(uuid "d71d7717-3d4e-42e4-8846-03ed5d144926")
-		)
-		(pin "11"
-			(uuid "e6045869-0193-4834-8b14-ee17ef0b03aa")
-		)
-		(pin "12"
-			(uuid "18c0cc7c-528c-490d-af04-a3c2365e3e48")
-		)
-		(pin "6"
-			(uuid "35cb617e-1b88-4600-8f96-025a54bedce0")
-		)
-		(pin "3"
-			(uuid "4a3ea01d-4d71-443d-91c9-1b1d4870e098")
-		)
-		(pin "7"
-			(uuid "27ee8f88-391c-4706-a143-e679f35cf53d")
-		)
-		(pin "2"
-			(uuid "882593f3-feb7-4d1f-b306-c3731e4b6d7b")
-		)
-		(pin "9"
-			(uuid "33b4b507-05e7-40f8-aa27-50268a3c7a49")
-		)
-		(pin "8"
-			(uuid "b248584c-9413-4c3e-806d-2ac8b2b93ca6")
-		)
-		(instances
-			(project ""
-				(path "/bfe9039d-f086-4b10-bdde-e613b3218973"
-					(reference "U5")
 					(unit 1)
 				)
 			)
