@@ -582,6 +582,10 @@
     [
       "1f1c8613-3fbc-4597-99ec-a358e3a5695e",
       "Differential I2C Transceivers"
+    ],
+    [
+      "1be5a252-9ae1-4bcb-8117-8b0ab1258f97",
+      "Current Sensing"
     ]
   ],
   "text_variables": {}
