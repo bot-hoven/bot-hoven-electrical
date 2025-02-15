@@ -8215,7 +8215,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4ff285b1-577f-4657-a8a8-8061185ffddf")
 		(property "Reference" "#PWR038"
 			(at 81.28 165.1 0)
@@ -8409,6 +8408,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/raspberry-pi/SC1631/24627136"
 			(at 144.78 57.15 0)
 			(effects
 				(font
@@ -10420,7 +10428,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bc5d2d20-7ccf-47df-bab9-aac297847365")
 		(property "Reference" "#PWR039"
 			(at 86.36 165.1 0)

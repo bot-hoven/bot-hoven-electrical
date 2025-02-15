@@ -4801,7 +4801,7 @@
 		(uuid "36580c65-4a98-4d97-b7d3-cd690a7246f4")
 	)
 	(junction
-		(at 91.44 137.16)
+		(at 82.55 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49315bbf-ca83-47ea-b187-58e7955f5dbb")
@@ -4939,7 +4939,7 @@
 		(uuid "f1c6e6d9-2794-4d44-9207-2daafa275b59")
 	)
 	(junction
-		(at 30.48 137.16)
+		(at 21.59 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa019ef0-05c4-458f-9c3b-1b22bec6669d")
@@ -4953,7 +4953,7 @@
 		(uuid "131368a5-5f28-420a-aa09-f5f6a40e61ac")
 	)
 	(no_connect
-		(at 127 124.46)
+		(at 118.11 119.38)
 		(uuid "15c39ee7-de84-481b-bddd-6ba5eb45367d")
 	)
 	(no_connect
@@ -4965,7 +4965,7 @@
 		(uuid "20b97bb6-942e-4856-976b-95a2fba24567")
 	)
 	(no_connect
-		(at 127 132.08)
+		(at 118.11 127)
 		(uuid "25ddb952-6795-4555-aad2-d6b97026fba0")
 	)
 	(no_connect
@@ -4977,11 +4977,11 @@
 		(uuid "3ad3ba3c-ea1b-4266-a63e-8fc4b9dbba76")
 	)
 	(no_connect
-		(at 40.64 137.16)
+		(at 31.75 132.08)
 		(uuid "3b5fc668-da3c-44b6-8d0e-76192fb35a73")
 	)
 	(no_connect
-		(at 127 127)
+		(at 118.11 121.92)
 		(uuid "52bc0645-2a4c-49c3-bc85-65668e67d078")
 	)
 	(no_connect
@@ -4997,15 +4997,15 @@
 		(uuid "8340164d-7ab7-476a-8a2e-5d8c1183172a")
 	)
 	(no_connect
-		(at 101.6 137.16)
+		(at 92.71 132.08)
 		(uuid "8455b641-a870-4f59-ba99-9c50209e6730")
 	)
 	(no_connect
-		(at 127 134.62)
+		(at 118.11 129.54)
 		(uuid "86707ff3-7270-4500-b88d-97c1d720863e")
 	)
 	(no_connect
-		(at 127 137.16)
+		(at 118.11 132.08)
 		(uuid "8b0d88be-ecf5-4899-a5a8-321170744bb6")
 	)
 	(no_connect
@@ -5017,7 +5017,7 @@
 		(uuid "ad441c10-a242-4970-bbd0-b353d051a52b")
 	)
 	(no_connect
-		(at 127 129.54)
+		(at 118.11 124.46)
 		(uuid "b04a2bdf-8229-4660-883c-f324b09a84e8")
 	)
 	(no_connect
@@ -5100,7 +5100,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 130.81) (xy 39.37 130.81)
+			(xy 31.75 125.73) (xy 30.48 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5260,7 +5260,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 137.16) (xy 30.48 138.43)
+			(xy 21.59 132.08) (xy 21.59 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5470,7 +5470,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 127) (xy 91.44 127)
+			(xy 90.17 121.92) (xy 82.55 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5550,7 +5550,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 130.81) (xy 100.33 130.81)
+			(xy 92.71 125.73) (xy 91.44 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5740,7 +5740,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 128.27) (xy 101.6 128.27)
+			(xy 90.17 123.19) (xy 92.71 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5750,7 +5750,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 135.89) (xy 30.48 137.16)
+			(xy 21.59 130.81) (xy 21.59 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5810,7 +5810,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 128.27) (xy 40.64 128.27)
+			(xy 29.21 123.19) (xy 31.75 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5880,7 +5880,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 130.81) (xy 100.33 137.16)
+			(xy 91.44 125.73) (xy 91.44 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6200,7 +6200,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 137.16) (xy 91.44 137.16)
+			(xy 91.44 132.08) (xy 82.55 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6490,7 +6490,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 127) (xy 38.1 128.27)
+			(xy 29.21 121.92) (xy 29.21 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6530,7 +6530,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 135.89) (xy 91.44 137.16)
+			(xy 82.55 130.81) (xy 82.55 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6540,7 +6540,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 127) (xy 91.44 128.27)
+			(xy 82.55 121.92) (xy 82.55 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6550,7 +6550,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 130.81) (xy 39.37 137.16)
+			(xy 30.48 125.73) (xy 30.48 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6590,7 +6590,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 127) (xy 30.48 127)
+			(xy 29.21 121.92) (xy 21.59 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6720,7 +6720,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 127) (xy 30.48 128.27)
+			(xy 21.59 121.92) (xy 21.59 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6730,7 +6730,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 127) (xy 99.06 128.27)
+			(xy 90.17 121.92) (xy 90.17 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6800,7 +6800,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 137.16) (xy 91.44 138.43)
+			(xy 82.55 132.08) (xy 82.55 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6970,7 +6970,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 137.16) (xy 30.48 137.16)
+			(xy 30.48 132.08) (xy 21.59 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7216,7 +7216,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 101.6 120.65 180)
+		(at 92.71 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7226,7 +7226,7 @@
 		)
 		(uuid "255f7225-9671-4ca5-8638-aa05df1f0340")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.1072 120.65 0)
+			(at 86.2172 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7260,7 @@
 	)
 	(global_label "SERVO_FB_8"
 		(shape input)
-		(at 66.04 137.16 0)
+		(at 57.15 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7270,7 +7270,7 @@
 		)
 		(uuid "2d9f5332-3350-466a-86e3-f3a038b002a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5761 137.16 0)
+			(at 71.6861 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7304,7 +7304,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 101.6 123.19 180)
+		(at 92.71 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7314,7 +7314,7 @@
 		)
 		(uuid "3bd9af30-4cdc-4fb5-8a3b-0b76251b5ad6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.0467 123.19 0)
+			(at 86.1567 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,7 +7436,7 @@
 	)
 	(global_label "SERVO_FB_4"
 		(shape input)
-		(at 66.04 127 0)
+		(at 57.15 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7446,7 +7446,7 @@
 		)
 		(uuid "5e65e594-bc4e-4fe8-9410-8d61168294a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5761 127 0)
+			(at 71.6861 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7458,7 +7458,7 @@
 	)
 	(global_label "SERVO_FB_6"
 		(shape input)
-		(at 66.04 132.08 0)
+		(at 57.15 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7468,7 +7468,7 @@
 		)
 		(uuid "7cbdd4b8-5027-4cf6-aa62-c00e8c875339")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5761 132.08 0)
+			(at 71.6861 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,7 +7480,7 @@
 	)
 	(global_label "SERVO_FB_1"
 		(shape input)
-		(at 66.04 119.38 0)
+		(at 57.15 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7490,7 +7490,7 @@
 		)
 		(uuid "805c21ec-22bf-4bab-b86c-74c77f1314a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5761 119.38 0)
+			(at 71.6861 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7502,7 +7502,7 @@
 	)
 	(global_label "SERVO_FB_10"
 		(shape input)
-		(at 127 121.92 0)
+		(at 118.11 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7512,7 +7512,7 @@
 		)
 		(uuid "8b62dad4-4e47-49a4-81fe-8e92beba42ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.7456 121.92 0)
+			(at 133.8556 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +7524,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 40.64 120.65 180)
+		(at 31.75 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7534,7 +7534,7 @@
 		)
 		(uuid "8caf1e31-4d3c-4ff2-a941-4df6e4f16473")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.1472 120.65 0)
+			(at 25.2572 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,7 +7546,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 40.64 123.19 180)
+		(at 31.75 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7556,7 +7556,7 @@
 		)
 		(uuid "8cddaa58-6871-490e-8493-c9549bf0a449")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.0867 123.19 0)
+			(at 25.1967 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7700,7 +7700,7 @@
 	)
 	(global_label "SERVO_FB_7"
 		(shape input)
-		(at 66.04 134.62 0)
+		(at 57.15 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7710,7 +7710,7 @@
 		)
 		(uuid "bcd4c9d3-25dc-4bde-8043-ad1f08f9d731")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5761 134.62 0)
+			(at 71.6861 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7744,7 +7744,7 @@
 	)
 	(global_label "SERVO_FB_2"
 		(shape input)
-		(at 66.04 121.92 0)
+		(at 57.15 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7754,7 +7754,7 @@
 		)
 		(uuid "c8cb4de0-948d-45d6-b2ab-def8bb09fa06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5761 121.92 0)
+			(at 71.6861 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7832,7 +7832,7 @@
 	)
 	(global_label "SERVO_FB_5"
 		(shape input)
-		(at 66.04 129.54 0)
+		(at 57.15 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7842,7 +7842,7 @@
 		)
 		(uuid "d4e0bd77-fa89-485c-a3e7-2803dbaa8a4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5761 129.54 0)
+			(at 71.6861 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7964,7 +7964,7 @@
 	)
 	(global_label "SERVO_FB_9"
 		(shape input)
-		(at 127 119.38 0)
+		(at 118.11 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7974,7 +7974,7 @@
 		)
 		(uuid "f1df7109-fba2-4802-bbf2-75411f33c33b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.5361 119.38 0)
+			(at 132.6461 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7986,7 +7986,7 @@
 	)
 	(global_label "SERVO_FB_3"
 		(shape input)
-		(at 66.04 124.46 0)
+		(at 57.15 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7996,7 +7996,7 @@
 		)
 		(uuid "fb564d64-9708-4edd-a205-0b6eba3510b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5761 124.46 0)
+			(at 71.6861 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8073,7 +8073,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 146.05 0)
+		(at 82.55 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8082,7 +8082,7 @@
 		(fields_autoplaced yes)
 		(uuid "0863a41d-aaf7-4b91-bd8c-2649939d3a17")
 		(property "Reference" "#PWR076"
-			(at 91.44 152.4 0)
+			(at 82.55 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8091,7 +8091,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 151.13 0)
+			(at 82.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8099,7 +8099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 146.05 0)
+			(at 82.55 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8108,7 +8108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 146.05 0)
+			(at 82.55 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8117,7 +8117,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 146.05 0)
+			(at 82.55 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8810,31 +8810,32 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5819")
-		(at 127 67.31 180)
+		(at 120.65 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1959adb7-34ef-49d9-9dd4-b1795046a7ad")
-		(property "Reference" "D5"
-			(at 117.856 66.548 0)
+		(uuid "1980a31c-e13c-434e-a7b3-c57d74de5667")
+		(property "Reference" "D4"
+			(at 120.904 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N5819"
-			(at 117.856 68.326 0)
+		(property "Value" "SB5100-T"
+			(at 120.904 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 127 62.865 0)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P12.70mm_Horizontal"
+			(at 120.65 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8843,7 +8844,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 127 67.31 0)
+			(at 120.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8851,8 +8852,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 127 67.31 0)
+		(property "Description" "DIODE SCHOTTKY 100V 5A DO201AD"
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/diodes-incorporated/SB5100-T/278636"
+			(at 120.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8861,15 +8871,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc86fc70-a141-4053-8823-315117fecc27")
+			(uuid "e02c7ba7-2c23-4955-848c-21a99ea4a645")
 		)
 		(pin "2"
-			(uuid "ec48e2b4-8399-4ca5-b45d-e27933908d85")
+			(uuid "def2e5eb-7bb3-478c-96e2-e462160b8973")
 		)
 		(instances
 			(project "hand_pcb"
 				(path "/e477d9a8-1e7a-40df-a1bd-7ac5d33ad932"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9380,7 +9390,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 30.48 142.24 0)
+		(at 21.59 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9388,7 +9398,7 @@
 		(dnp no)
 		(uuid "23c07991-3a0b-4469-ba51-315b6b031923")
 		(property "Reference" "R23"
-			(at 24.384 141.478 0)
+			(at 15.494 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9397,7 +9407,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 33.02 143.5099 0)
+			(at 24.13 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9407,7 +9417,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 31.496 142.494 90)
+			(at 22.606 137.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9416,7 +9426,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 142.24 0)
+			(at 21.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9425,7 +9435,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 30.48 142.24 0)
+			(at 21.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9596,7 +9606,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 142.24 0)
+		(at 105.41 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9605,7 +9615,7 @@
 		(fields_autoplaced yes)
 		(uuid "2989f4ae-3622-46a1-95c9-363070ac844e")
 		(property "Reference" "#PWR075"
-			(at 114.3 148.59 0)
+			(at 105.41 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9614,7 +9624,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 147.32 0)
+			(at 105.41 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9622,7 +9632,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 142.24 0)
+			(at 105.41 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9631,7 +9641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 142.24 0)
+			(at 105.41 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9640,7 +9650,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 142.24 0)
+			(at 105.41 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10427,7 +10437,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 52.07 114.3 0)
+		(at 43.18 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10435,7 +10445,7 @@
 		(dnp no)
 		(uuid "47512cb6-68ef-4034-b780-c1c741abbed9")
 		(property "Reference" "#PWR070"
-			(at 52.07 118.11 0)
+			(at 43.18 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10444,7 +10454,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 52.07 109.22 90)
+			(at 43.18 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10452,7 +10462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 114.3 0)
+			(at 43.18 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10461,7 +10471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 114.3 0)
+			(at 43.18 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10470,7 +10480,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 52.07 114.3 0)
+			(at 43.18 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10500,14 +10510,6 @@
 		(dnp no)
 		(uuid "4788992c-7957-4257-84bd-e8ddc54de817")
 		(property "Reference" "D1"
-			(at 127.254 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819"
 			(at 127.254 44.196 0)
 			(effects
 				(font
@@ -10515,7 +10517,16 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Value" "SB5100-T"
+			(at 127.254 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P12.70mm_Horizontal"
 			(at 127 42.545 0)
 			(effects
 				(font
@@ -10533,7 +10544,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" "DIODE SCHOTTKY 100V 5A DO201AD"
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/diodes-incorporated/SB5100-T/278636"
 			(at 127 46.99 0)
 			(effects
 				(font
@@ -10559,7 +10579,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 115.57 114.3 0)
+		(at 106.68 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10567,7 +10587,7 @@
 		(dnp no)
 		(uuid "47c1b13e-6787-471a-86d7-169c4fa7151d")
 		(property "Reference" "#PWR074"
-			(at 115.57 118.11 0)
+			(at 106.68 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10576,7 +10596,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 115.57 109.22 90)
+			(at 106.68 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10584,7 +10604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 114.3 0)
+			(at 106.68 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10593,7 +10613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 114.3 0)
+			(at 106.68 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,7 +10622,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 115.57 114.3 0)
+			(at 106.68 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10690,7 +10710,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 146.05 0)
+		(at 21.59 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10699,7 +10719,7 @@
 		(fields_autoplaced yes)
 		(uuid "50c28022-542f-4f44-b33e-bc956b2ab9cb")
 		(property "Reference" "#PWR072"
-			(at 30.48 152.4 0)
+			(at 21.59 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10708,7 +10728,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 151.13 0)
+			(at 21.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10716,7 +10736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 146.05 0)
+			(at 21.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10725,7 +10745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 146.05 0)
+			(at 21.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10734,7 +10754,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 146.05 0)
+			(at 21.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11117,7 +11137,7 @@
 	)
 	(symbol
 		(lib_id "bh_symbol_library:ADS7138IRTER")
-		(at 40.64 116.84 0)
+		(at 31.75 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11126,7 +11146,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a59794d-aa95-486c-a69f-f6f0b338aa44")
 		(property "Reference" "U4"
-			(at 55.5341 142.24 0)
+			(at 46.6441 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11135,7 +11155,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 55.5341 143.51 0)
+			(at 46.6441 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11144,7 +11164,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
-			(at 66.04 124.46 0)
+			(at 57.15 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11153,7 +11173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 124.46 0)
+			(at 57.15 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11161,8 +11181,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 66.04 124.46 0)
+		(property "Description" "https://www.digikey.ca/en/products/detail/texas-instruments/ADS7138IRTER/12696011"
+			(at 57.15 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11355,6 +11375,83 @@
 			(project "hand_pcb"
 				(path "/e477d9a8-1e7a-40df-a1bd-7ac5d33ad932"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819")
+		(at 120.65 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ec61692-4234-43cc-b782-2384da545419")
+		(property "Reference" "D2"
+			(at 120.904 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SB5100-T"
+			(at 120.904 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P12.70mm_Horizontal"
+			(at 120.65 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 100V 5A DO201AD"
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/diodes-incorporated/SB5100-T/278636"
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee276d43-d01a-49b7-8024-b824b1989b1c")
+		)
+		(pin "2"
+			(uuid "590af255-9c3d-44ab-b694-c1fc29ea33ea")
+		)
+		(instances
+			(project "hand_pcb"
+				(path "/e477d9a8-1e7a-40df-a1bd-7ac5d33ad932"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -12670,7 +12767,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 91.44 132.08 0)
+		(at 82.55 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12678,7 +12775,7 @@
 		(dnp no)
 		(uuid "87a976ee-055e-47ee-a853-62bcf7dca335")
 		(property "Reference" "R24"
-			(at 85.598 130.81 0)
+			(at 76.708 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12687,7 +12784,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 93.98 133.3499 0)
+			(at 85.09 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12697,7 +12794,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 92.456 132.334 90)
+			(at 83.566 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12706,7 +12803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 132.08 0)
+			(at 82.55 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12715,7 +12812,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 91.44 132.08 0)
+			(at 82.55 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13043,7 +13140,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 54.61 114.3 0)
+		(at 45.72 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13051,7 +13148,7 @@
 		(dnp no)
 		(uuid "9773d65c-a0cc-4762-b4f1-0f2e1c78a110")
 		(property "Reference" "#PWR071"
-			(at 54.61 118.11 0)
+			(at 45.72 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13060,7 +13157,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 54.61 109.22 90)
+			(at 45.72 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13068,7 +13165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 114.3 0)
+			(at 45.72 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13077,7 +13174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 114.3 0)
+			(at 45.72 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13086,7 +13183,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 54.61 114.3 0)
+			(at 45.72 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13327,7 +13424,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 142.24 0)
+		(at 44.45 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13336,7 +13433,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f4fcbdd-3ea6-47ae-a3a5-878bbeeb3eef")
 		(property "Reference" "#PWR063"
-			(at 53.34 148.59 0)
+			(at 44.45 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13345,7 +13442,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 147.32 0)
+			(at 44.45 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13353,7 +13450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 142.24 0)
+			(at 44.45 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13362,7 +13459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 142.24 0)
+			(at 44.45 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13371,7 +13468,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 142.24 0)
+			(at 44.45 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14230,73 +14327,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5819")
-		(at 120.65 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c54950e9-b509-453c-9392-f54d265d93ab")
-		(property "Reference" "D2"
-			(at 111.506 51.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 111.506 53.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 120.65 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 120.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 120.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ecd1a13-8189-4fd3-b04d-2488f9b6fc5b")
-		)
-		(pin "2"
-			(uuid "dab251aa-4c9a-4024-880f-c1b911e3795b")
-		)
-		(instances
-			(project "hand_pcb"
-				(path "/e477d9a8-1e7a-40df-a1bd-7ac5d33ad932"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 93.98 46.99 270)
 		(unit 1)
@@ -15079,7 +15109,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 91.44 142.24 0)
+		(at 82.55 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15087,7 +15117,7 @@
 		(dnp no)
 		(uuid "d5978f0b-e72a-4aee-8a1e-1d5c6eba0251")
 		(property "Reference" "R25"
-			(at 85.344 141.478 0)
+			(at 76.454 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15096,7 +15126,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 93.98 143.5099 0)
+			(at 85.09 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15106,7 +15136,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 92.456 142.494 90)
+			(at 83.566 137.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15115,7 +15145,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 142.24 0)
+			(at 82.55 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15124,7 +15154,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 91.44 142.24 0)
+			(at 82.55 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15270,6 +15300,83 @@
 			(project "hand_pcb"
 				(path "/e477d9a8-1e7a-40df-a1bd-7ac5d33ad932"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819")
+		(at 127 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd205866-e846-4247-b3fd-08a004410e4a")
+		(property "Reference" "D5"
+			(at 127.254 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SB5100-T"
+			(at 127.254 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P12.70mm_Horizontal"
+			(at 127 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 100V 5A DO201AD"
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/diodes-incorporated/SB5100-T/278636"
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f479283e-fc7d-4470-a024-9a24bd1547e7")
+		)
+		(pin "2"
+			(uuid "34549d8a-e0a4-4444-a5d0-2e9a7856adef")
+		)
+		(instances
+			(project "hand_pcb"
+				(path "/e477d9a8-1e7a-40df-a1bd-7ac5d33ad932"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -15426,7 +15533,7 @@
 	)
 	(symbol
 		(lib_id "bh_symbol_library:ADS7138IRTER")
-		(at 101.6 116.84 0)
+		(at 92.71 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15435,7 +15542,7 @@
 		(fields_autoplaced yes)
 		(uuid "dff30397-dfc8-4836-9aed-1c3480809d5f")
 		(property "Reference" "U5"
-			(at 116.4941 142.24 0)
+			(at 107.6041 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15444,7 +15551,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 116.4941 143.51 0)
+			(at 107.6041 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15453,7 +15560,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
-			(at 127 124.46 0)
+			(at 118.11 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15462,7 +15569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 124.46 0)
+			(at 118.11 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15470,8 +15577,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 127 124.46 0)
+		(property "Description" "https://www.digikey.ca/en/products/detail/texas-instruments/ADS7138IRTER/12696011"
+			(at 118.11 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15873,7 +15980,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 30.48 132.08 0)
+		(at 21.59 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15881,7 +15988,7 @@
 		(dnp no)
 		(uuid "e8082a53-a088-42c8-877f-0c7e16de6f1c")
 		(property "Reference" "R22"
-			(at 24.638 130.81 0)
+			(at 15.748 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15890,7 +15997,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 33.02 133.3499 0)
+			(at 24.13 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15900,7 +16007,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 31.496 132.334 90)
+			(at 22.606 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15909,7 +16016,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 132.08 0)
+			(at 21.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15918,7 +16025,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 30.48 132.08 0)
+			(at 21.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16151,73 +16258,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5819")
-		(at 120.65 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1332699-1e3e-4050-88e0-bf4a87016da9")
-		(property "Reference" "D4"
-			(at 111.76 61.468 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 111.76 63.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 120.65 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 120.65 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 120.65 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03e6b954-cb15-4c4d-9bf8-267138b91485")
-		)
-		(pin "2"
-			(uuid "141d61f5-57f0-4a3c-9787-168439a79090")
-		)
-		(instances
-			(project "hand_pcb"
-				(path "/e477d9a8-1e7a-40df-a1bd-7ac5d33ad932"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 262.89 148.59 270)
 		(unit 1)
@@ -16286,7 +16326,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 113.03 114.3 0)
+		(at 104.14 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16294,7 +16334,7 @@
 		(dnp no)
 		(uuid "f2286118-d217-4a3e-96d6-fefdf79312ac")
 		(property "Reference" "#PWR073"
-			(at 113.03 118.11 0)
+			(at 104.14 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16303,7 +16343,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 113.03 109.22 90)
+			(at 104.14 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16311,7 +16351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 114.3 0)
+			(at 104.14 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16320,7 +16360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 114.3 0)
+			(at 104.14 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16329,7 +16369,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 113.03 114.3 0)
+			(at 104.14 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16344,6 +16384,83 @@
 			(project "hand_pcb"
 				(path "/e477d9a8-1e7a-40df-a1bd-7ac5d33ad932"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819")
+		(at 127 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f57b5cb8-ef6b-471c-80cc-8201979f6af5")
+		(property "Reference" "D3"
+			(at 127.254 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SB5100-T"
+			(at 127.254 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P12.70mm_Horizontal"
+			(at 127 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 100V 5A DO201AD"
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/diodes-incorporated/SB5100-T/278636"
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54ec87e2-0c8d-49b0-bb55-cf565c7392ee")
+		)
+		(pin "2"
+			(uuid "65c09a8b-9e69-48a5-91d5-86ed4e980eaa")
+		)
+		(instances
+			(project "hand_pcb"
+				(path "/e477d9a8-1e7a-40df-a1bd-7ac5d33ad932"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -16539,73 +16656,6 @@
 			(project "hand_pcb"
 				(path "/e477d9a8-1e7a-40df-a1bd-7ac5d33ad932"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5819")
-		(at 127 57.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe9f38c6-c255-43ad-b3a4-1b327341456b")
-		(property "Reference" "D3"
-			(at 117.856 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 117.856 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 127 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 127 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 127 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e7dcd82-267b-4a56-85e5-24d7d542eb2e")
-		)
-		(pin "2"
-			(uuid "2f4799c3-925d-4e2d-ab21-633ed0180414")
-		)
-		(instances
-			(project "hand_pcb"
-				(path "/e477d9a8-1e7a-40df-a1bd-7ac5d33ad932"
-					(reference "D3")
 					(unit 1)
 				)
 			)
