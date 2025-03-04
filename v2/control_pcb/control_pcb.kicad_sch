@@ -5433,6 +5433,18 @@
 		)
 		(uuid "f9a97cce-b157-48ff-a015-a371dc01eeb7")
 	)
+	(text "BOT-HOVEN Control PCB Version 2\n"
+		(exclude_from_sim no)
+		(at 217.678 168.91 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "243432c5-fbf3-4efe-a846-1e345516e806")
+	)
 	(text "GPIO 3.3V TO 5V\nLEVEL SHIFTER"
 		(exclude_from_sim no)
 		(at 51.308 106.426 0)
@@ -5442,6 +5454,46 @@
 			)
 		)
 		(uuid "38e6f49b-4d41-40d6-bf87-13c3dfcec591")
+	)
+	(text "I2C LEVEL SHIFTER"
+		(exclude_from_sim no)
+		(at 92.964 24.892 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "41d3e283-4c05-4560-94f1-283da53b3e4f")
+	)
+	(text "Drawn: Jascha Petersen"
+		(exclude_from_sim no)
+		(at 195.58 179.832 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "7cdf823b-362e-4ac9-857c-f88661b42ad1")
+	)
+	(text "RASPBERRY PI\nPICO\n"
+		(exclude_from_sim no)
+		(at 165.862 30.226 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "84bd0bef-bda6-4456-a3bf-19d57e38f5ca")
+	)
+	(text "RASPBERRY PI"
+		(exclude_from_sim no)
+		(at 26.416 15.748 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "db0961d9-f77b-456e-903e-8a272b60d396")
 	)
 	(global_label "DIR1+"
 		(shape input)
